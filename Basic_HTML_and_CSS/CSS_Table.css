@@ -1,0 +1,21 @@
+/* D. Border styling */
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+/* A. Background colr and B. Font color*/
+th {
+   background-color: #4CAF50; /* Green background*/
+   color: white;              /*White font color */
+   padding: 10px;
+}
+td {
+   padding: 8px;
+   background-color: #f9f9f9; /*Light grey background for rows */
+   color: #333;               /*Dark grey font color */
+}
+/* C. Hover Selector */
+tr: hover {
+   background-color: #f5f5f5; /*Changes color when mouse hovers over a row */
+   cursor: pointer;
+}

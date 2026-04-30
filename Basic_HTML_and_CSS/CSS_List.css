@@ -1,0 +1,7 @@
+/* Changes  the list-style-type of an Ordered list*/
+ol {
+    list-style-type:upper-roman;
+}
+/* Changes the list-style-type of an Unordered List */
+ul {
+    list-style-type:square;
